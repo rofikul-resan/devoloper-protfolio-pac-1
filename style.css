@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn-primary{
+    background: #FD6E0A;
+    color: #fff;
+    padding: 15px 25px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.btn-normal{
+    background: transparent;
+    color: #FD6E0A;
+    border: 0.7px solid #FD6E0A;
+    margin-left: 20px;
+}
+/* header style */
+
+
+header{
+    background: #FFF8F3 ;
+    background-image: url(./images/developer.png), url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: left, right bottom;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.nav-logo{
+    font-size: 45px;
+    font-weight: 800;
+}
+.nav-logo span{
+    color: #FD6E0A;
+}
+.nav-list ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+
+}
+.nav-list ul li a{
+    color: #474747;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.nav-list ul li{
+    list-style: none;
+}
+
+.pfl{
+    display: flex;
+    justify-content: space-between;
+}
+.pfl-info{
+    width: 590px;
+    align-self: center;
+    margin-left: 230px;
+}
+.pfl-info h2{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 500;
+}
+.pfl-info h1{
+    font-size: 85px;
+    font-weight: 700;
+
+}
+.discretion{
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    margin: 30px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
