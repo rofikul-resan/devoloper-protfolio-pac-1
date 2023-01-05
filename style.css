@@ -18,6 +18,15 @@
     border: 0.7px solid #FD6E0A;
     margin-left: 20px;
 }
+main{
+    width: 70%;
+    margin: 0 auto;
+}
+.card{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 31px -10px #757575;
+}
 /* header style */
 
 
@@ -90,7 +99,7 @@ nav{
 
 
 .about{
-    width: 60%;
+    /* width: 60%; */
     background: #fff8f3;
     padding: 80px;
     margin: 100px auto;
@@ -129,8 +138,62 @@ nav{
     font-size: 18px;
     margin-bottom: 50px;
  }
+ 
+ .what-i-do .title-info{
+    width: 700px;
+    font-size: 15px;
+    margin: 0 auto;
+ }
+/* skill section style */
 
+.skill{
+    display: flex;
+    margin: 60px 0;
+    gap: 20px;
+}
+.skill .title-info{
+    text-align: left;
+    font-size: 15px;
 
+}
+.skiil-title{
+    font-size: 20px;
+    margin: 20px 0;
+}
+.skill img{
+    width: 40px;
+}
+/* resume section style */
+
+.resume{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+.resume-title{
+    text-align: center;
+    margin: 100px 0;
+
+}
+.resume-box h1{
+    color: #474747;
+    margin-bottom: 20px;
+    /* font-size: 32px; */
+}
+.resume-box h2{
+    color: #474747;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+.resume-box h4{
+    color: #757575;
+    margin-bottom: 5px;
+}
+.resume-box p{
+    color: #757575;
+    margin: 20px 80px 40px 0;
+    font-size: 14px;
+}
 
 
 
